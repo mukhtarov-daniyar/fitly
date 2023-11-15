@@ -83,7 +83,7 @@ const FitScreen = () => {
               color: "white",
             }}
           >
-            DONE
+            Выполнено
           </Text>
         </Pressable>
       ) : (
@@ -116,7 +116,7 @@ const FitScreen = () => {
               color: "white",
             }}
           >
-            DONE
+            Выполнено
           </Text>
         </Pressable>
       )}
@@ -150,7 +150,7 @@ const FitScreen = () => {
           <Text
             style={{ color: "white", fontWeight: "bold", textAlign: "center" }}
           >
-            PREV
+            Назад
           </Text>
         </Pressable>
         {index + 1 >= excersise.length ? (
@@ -173,7 +173,7 @@ const FitScreen = () => {
                 textAlign: "center",
               }}
             >
-              SKIP
+            Далее
             </Text>
           </Pressable>
         ) : (
@@ -200,7 +200,7 @@ const FitScreen = () => {
                 textAlign: "center",
               }}
             >
-              SKIP
+              Далее
             </Text>
           </Pressable>
         )}

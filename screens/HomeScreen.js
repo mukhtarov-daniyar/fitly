@@ -16,14 +16,16 @@ const HomeScreen = () => {
     <ScrollView style={{marginTop:40}}>
       <View
         style={{
-          backgroundColor: "#CD853F",
+          backgroundColor: "#00848C",
           padding: 10,
           height: 200,
           width: "100%",
+        
+          
         }}
       >
-        <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>
-          HOME WORKOUT
+        <Text style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>
+          Фитнесс приложение
         </Text>
 
         <View
@@ -40,13 +42,13 @@ const HomeScreen = () => {
                 textAlign: "center",
                 fontWeight: "bold",
                 color: "white",
-                fontSize: 18,
+                fontSize: 20,
               }}
             >
               {workout}
             </Text>
             <Text style={{ color: "#D0D0D0", fontSize: 17, marginTop: 6 }}>
-              WORKOUTS
+            Тренировки
             </Text>
           </View>
 
@@ -62,7 +64,7 @@ const HomeScreen = () => {
               {calories}
             </Text>
             <Text style={{ color: "#D0D0D0", fontSize: 17, marginTop: 6 }}>
-              KCAL
+              Калорий
             </Text>
           </View>
 
@@ -78,7 +80,7 @@ const HomeScreen = () => {
               {minutes}
             </Text>
             <Text style={{ color: "#D0D0D0", fontSize: 17, marginTop: 6 }}>
-              MINS
+            Минут
             </Text>
           </View>
         </View>
@@ -86,13 +88,13 @@ const HomeScreen = () => {
         <View style={{ justifyContent: "center", alignItems: "center" }}>
           <Image
             style={{
-              width: "90%",
-              height: 120,
+              width: "100%",
+              height: 180,
               marginTop: 20,
-              borderRadius: 7,
+              borderRadius: 10,
             }}
             source={{
-              uri: "https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,ar_1.2,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/gold2.png",
+              uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyOmfaHILY_1wodTPUmB0gXqjNPP-PlRpbsw&usqp=CAU",
             }}
           />
         </View>
